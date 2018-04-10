@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -71,10 +73,10 @@ Navigation Bar Section
 		  </a>
 		  <div class="nav-collapse">
 			<ul class="nav">
-			  <li class=""><a href="index.html">Home	</a></li>
-			  <li class="active"><a href="products.html">Products</a></li>
-			  <li><a href="contact.html"> Contact us</a></li>
-			  <li class=""><a href="about_us.html">About Us</a></li>
+			  <li class=""><a href="index.jsp">Home	</a></li>
+			  <li class="active"><a href="products.jsp">Products</a></li>
+               <li class=""> <a href="contact.jsp">Contact us</a></li>
+			  <li class=""><a href="about_us.jsp">About Us</a></li>
 			</ul>
 		  </div>
 		</div>

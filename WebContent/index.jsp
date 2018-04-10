@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Twitter Bootstrap shopping cart</title>
+    <title>Artifacts from Chattisgarh</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -45,7 +47,6 @@
 Lower Header Section 
 -->
 <div class="container">
-<div id="gototop"> </div>
 <header id="header">
 <div class="row">
     <img src="assets/img/logo1.png" alt="bootstrap sexy shop">
@@ -71,10 +72,10 @@ Navigation Bar Section
 		  </a>
 		  <div class="nav-collapse">
 			<ul class="nav">
-			  <li class=""><a href="index.html">Home	</a></li>
-			  <li class=""><a href="products.html">Products</a></li>
-               <li> <a href="contact.html">Contact us</a></li>
-			  <li class="active"><a href="about_us.html">About Us</a></li>
+			  <li class="active"><a href="index.jsp">Home	</a></li>
+			  <li class=""><a href="products.jsp">Products</a></li>
+               <li> <a href="contact.jsp">Contact us</a></li>
+			  <li class=""><a href="about_us.jsp">About Us</a></li>
 			</ul>
 		  </div>
 		</div>
@@ -83,33 +84,47 @@ Navigation Bar Section
 <!-- 
 Body Section 
 -->
-	<hr class="soften">
-	<div>
-		<h1>About us</h1>
-	</div>
-	<hr class="soften">
 	<div class="row">
-		<div class="span8">
-		  <h6>
-			.......
-		  </h6>
-		  <p>
-			........<br>
-			<br>
-			....................
-			<br><br>
-			................<br>
-		  </p>
-		</div>
-		<div class="span4">
-			Monday - Friday<br/>
-			09:00am - 09:00pm<br/>
-			Saturday<br/>
-			09:00am - 07:00pm<br/>
-			Sunday<br/>
-			12:30pm - 06:00pm<br/>
-		</div>
+<div id="sidebar" class="span3">
+<div class="well well-small">
+	<ul class="nav nav-list">
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Humans</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Lamp</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Boats</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Candle Stand</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Home Decore</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Key Holder</a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Instruments </a></li>
+		<li><a href="products.html"><span class="icon-chevron-right"></span>Other</a></li>
+		<li style="border:0"> &nbsp;</li>
+	</ul>
+</div>
 	</div>
+	<div class="span9">
+	<div class="well np">
+		<div id="myCarousel" class="carousel slide homCar">
+            <div class="carousel-inner">
+			  <div class="item">
+                <img style="width:100%" src="assets/img/boat1.jpg" alt="bootstrap ecommerce templates">
+              </div>
+			  <div class="item">
+                <img style="width:100%" src="assets/img/Folk1.jpg" alt="bootstrap ecommerce templates">
+              </div>
+			  <div class="item active">
+                <img style="width:100%" src="assets/img/Nandi.jpg" alt="bootstrap ecommerce templates">
+              </div>
+              <div class="item">
+                <img style="width:100%" src="assets/img/CandleLamp1.jpg" alt="bootstrap templates">
+              </div>
+              <div class="item">
+                <img style="width:100%" src="assets/img/Horse.jpg" alt="bootstrap templates">
+              </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+          </div>
+        </div>
+	
 <!-- 
 Clients 
 -->
